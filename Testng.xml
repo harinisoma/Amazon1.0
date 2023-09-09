@@ -1,0 +1,15 @@
+<suite name="Amazon1.0"  parallel="tests"> 
+
+             <test name="TestNG" allow-return-values="true">
+                     <classes>
+                             <class name ="amazontestlayer.SigninTest" />
+                     </classes>
+             </test>
+
+
+                   <listeners>
+              <!-- packagename.customerlistner_classname  -->
+                       <listener class-name="listnerDemo.CustomerListner"/>
+              </listeners>
+
+</suite>
